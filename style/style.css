@@ -1,0 +1,24 @@
+:root {
+ --background-color:#1E252B;
+ --color-text:#ffffff;
+ --button-color:#ff6e30;
+ 
+}
+ 
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1E252B;
+    color: #ffffff;
+}
+
+.container {
+  max-width: 1254px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+  /* Header */
+
+  /* Main */
+  
+  /* Footer */
