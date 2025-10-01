@@ -7,6 +7,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/modern-normalize.css" />
     <link rel="stylesheet" href="/style/style.css" />
     <title>Antools</title>
@@ -14,8 +15,10 @@
   <body>
     <header>
         <div class="container">
-          <img src="./img/svg/logo.svg" alt="logotype">
-        <h1>antools.</h1>
+          <div class="logo-block">
+        <img src="./img/svg/logo.svg" alt="logotype">
+        <h1 class="logo">antools.</h1>
+        </div>
         <nav class="nav-menu">
         <ul class="nav-list">
             <li class="nav-list-item"><a href="#" class="nav-list-link">Home</a></li>
@@ -24,27 +27,29 @@
             <li class="nav-list-item"><a href="#" class="nav-list-link">Blog</a></li>
         </ul>
         </nav>
+        
          <div>
-             <button type="button">Login</button>
-            <button type="button" class="button-orange">Sign Up</button>
+             <button class="button-login" type="button">Login</button>
+            <button type="button" class="button-sign-up">Sign Up</button>
+        </div>
         </div>
     </header>
     <main>
        <div class="container">
         <section class="hero">
             <div class="hero-content">
-              <h1>Awesome tools for <br> <span>Designer & Developer</span> <span class="dot">.</span></h1>
-              <p class="">
+              <h1 class="hero-title">Awesome tools for <br> <span>Designer & Developer</span> <span class="dot">.</span></h1>
+              <p class="hero-subtitle">
                 Antool is a web collection of information on paid or <br> free Design and Development tools.
               </p>
               </div>
                 <form action="">
                 <input type="text" placeholder=" &#128269 Find more than 430+ tools..." />
-                <button class="button-orange" type="button">Search</button>
+                <button class="hero-button" type="button">Search</button>
                 </form>
               </section>
               </div>
-              <!-- facebook,inst... и имг справа зробити в бек имг в цсс -->
+
              <div class="container">
               <section class="popular-tools">
                 <h2>Most Popular Tools</h2>
@@ -57,7 +62,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.</p>
                      <button type="button" class="action-bthLike">❤</button>
                      <button type="button" class="action-bthSave">📂</button>
-                     <button type="button">visit</button>
+                     <button class="button-visit" type="button">visit</button>
                  </div>
                   
                    <div class="card">
@@ -67,7 +72,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.</p>
                      <button type="button" class="action-bthLike">♥️</button>
                      <button type="button" class="action-bthSave">📂</button>
-                     <button class="button-orange" type="button">visit</button>
+                     <button class="visit-orange" type="button">visit</button>
                  </div>
 
                    <div class="card">
@@ -77,7 +82,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.</p>
                      <button type="button" class="action-bthLike">❤</button>
                      <button type="button" class="action-bthSave">📂</button>
-                     <button type="button">visit</button>
+                     <button class="button-visit" type="button">visit</button>
                  </div>
 
                    <div class="card">
@@ -87,7 +92,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.</p>
                      <button type="button" class="action-bthLike">❤</button>
                      <button type="button" class="action-bthSave">📂</button>
-                     <button type="button">visit</button>
+                     <button class="button-visit" type="button">visit</button>
                  </div>
 
                    <div class="card">
@@ -97,7 +102,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.</p>
                      <button type="button" class="action-bthLike">❤</button>
                      <button type="button" class="action-bthSave">📂</button>
-                     <button type="button">visit</button>
+                     <button class="button-visit" type="button">visit</button>
                  </div>
 
                    <div class="card">
@@ -107,10 +112,10 @@
                     <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.</p>
                      <button type="button" class="action-bthLike">❤</button>
                      <button type="button" class="action-bthSave">📂</button>
-                     <button type="button">visit</button>
+                     <button class="button-visit" type="button">visit</button>
                  </div>
 
-                 <button type="button" class="load-more">Load more</button>      
+                 <button type="button" class="button-load">Load more</button>      
               </section>
              </div>
               <div class="container">
@@ -128,7 +133,7 @@
               <div class="description">
                 <h2>Newcomer Tools</h2>
                 <p>Wow! see the latest update of the most <br> recommended tools from reliable designers <br> and developers</p>
-                <button type="button" class="button-orange">Explore more</button>
+                <button type="button" class="button-explore">Explore more</button>
               </div>
               <div class="card2">
                 <h3>Zeplin</h3>
@@ -170,8 +175,8 @@
 
              <div class="container">
              <section class="manager-card">
-             <div class="arrow-left"><</div>
-          <div class="arrow-right">></div>
+             <div class="arrow-left">&#8249</div>
+          <div class="arrow-right">&#8250</div>
            <img src="/img/ProductManager.png" alt="" class="manager">
           <p class="manager-info">Incididunt cillum do sint sint enim ullamco id deserunt mollit <br> qui reprehenderit do. Velit ex tempor cillum ad sint occaecat. <br> Do nulla velit labore occaecat do deserunt Lorem magna <br> officia incididunt consectetur amet. Sunt consectetur veniam <br> minim ex commodo sint non. Occaecat aute officia excepteur <br> non laboris id qui ad.</p>
            <div class="slaider"> <button class="slaid"></button> <button class="slaid"> </button> <button class="slaid"></button> </div>
@@ -184,7 +189,7 @@
                 <p>Join us and get tips & tricks to become a great <br> Designer and Developer</p>
                 <form action="">
                 <input type="text" placeholder="Enter your email..." />
-                <button class="button-orange" type="button">Join Us</button>
+                <button class="button-join-us" type="button">Join Us</button>
                 </form>
               </section>
              </div>
@@ -195,18 +200,18 @@
     <h1 class="logo">antools.</h1>
     <p>Copyright 2021. Antools</p>
         <p>Antool is a web collection of information on paid or free Design and Development tools</p>
-      <div class="sectionOfFooter">
+      <div class="contant">
         <h3>Contact Us</h3>
         <p>+621987463</p>
         <p>M Building, No.10 A</p>
         <p>antools@awesome.com</p>
       </div>
-      <div class="sectionOfFooter">
+      <div class="categories">
         <h3>Categories</h3>
         <p>Design</p>
         <p>Development</p>
       </div>
-      <div class="sectionOfFooter">
+      <div class="info">
         <h3>Company Info</h3>
         <p>About Us</p>
         <p>Our Partners</p>
@@ -216,4 +221,4 @@
      </div>
     </footer>
   </body>
-</html>
+</html> 

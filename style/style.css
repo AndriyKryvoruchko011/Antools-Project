@@ -2,13 +2,20 @@
  --background-color:#1E252B;
  --color-text:#ffffff;
  --button-color:#ff6e30;
- 
 }
  
 body {
     font-family: "Poppins", sans-serif;
+    font-weight: 500;
     background-color: #1E252B;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.manager-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.78);
 }
 
 .container {
@@ -18,7 +25,94 @@ body {
   padding: 0 15px;
 }
   /* Header */
+header {
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-block img {
+  height: 30px;
+}
+
+.logo {
+  color: rgba(255, 255, 255, 0.90);
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-list-link {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-list-link:hover {
+  color: #ffffff;
+}
+
+.button-login {
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button-login:hover {
+  color: #ffffff;
+}
+
+.button-sign-up {
+  background-color: #ff6e30;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FDF5FF;
+  cursor: pointer;
+  border: none;
+}
 
   /* Main */
-  
+  .hero-title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 140%;
+  }
+  .dot {
+    color: #ff6e30;
+    line-height: 140%;
+  }
+  .hero-subtitle {
+    color: rgba(255, 255, 255, 0.55);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+  }
+ 
+
   /* Footer */
