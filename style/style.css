@@ -80,6 +80,7 @@ header .container {
   font-size: 16px;
   cursor: pointer;
   font-weight: 600;
+  margin: 25px;
 }
 
 .button-login:hover {
@@ -96,8 +97,20 @@ header .container {
   cursor: pointer;
   border: none;
 }
+.button-sign-up:hover {
+  background-color: #FF5C12;
+}
 
   /* Main */
+
+  .hero {
+  min-height: 600px;
+  background-image: url(/img/background\ hero.png);
+  background-repeat: no-repeat;
+  background-position:  right;
+  background-size: contain;
+}
+
   .hero-title {
     font-weight: 500;
     font-size: 50px;
@@ -113,6 +126,152 @@ header .container {
     font-size: 18px;
     line-height: 30px;
   }
- 
+
+  .search-form  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #283036;
+    border: 1px solid #323A3F;
+    border-radius: 15px;
+    max-width: 497px;
+    height: 64px;
+    padding: 8px 11px;
+    margin-top: 60px;
+  }
+  .hero-button {
+    background-color: #ff6e30;
+    color: #ffffff;
+    width: 130px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor:pointer;
+  }
+  
+.search-form input {
+  background-color:  #283036 ;
+  color: rgba(255, 255, 255, 0.38);
+  font-weight: 400;
+  border: none;
+  overflow: visible;
+  outline: none;
+  flex: 1;
+}
+  
+.hero-button:hover {
+  background-color: #FF5C12;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    margin: 110px 0;
+    justify-content: flex-start;
+}
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.1s;
+  }
+  
+  .social-icons a img:hover {
+    opacity: 0.8;
+  }
+
+.tools-title {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 48px;
+  margin-top: 190px;
+}
+.tools-subtitle {
+  color: rgba(255, 255, 255, 0.55);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: none;
+  width: 390px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.card .toolIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.toolFree {
+  font-size: 14px;
+  color: #ff7a29;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.ToolPaid {
+  color: #ffa500;
+}
+
+.card p {
+  font-size: 14px;
+  color: #bbbbbb;
+  margin-bottom: 20px;
+}
+
+.toolActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.action-btn:hover {
+  opacity: 0.7;
+}
+
+.visit {
+  background-color: #ff7a29;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.visit:hover {
+  background-color: #e66a20;
+}
+
+
 
   /* Footer */
